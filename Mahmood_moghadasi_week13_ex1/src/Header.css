@@ -1,0 +1,31 @@
+div {
+  position: relative;
+  background-color: rgb(3, 98, 249);
+  height: 116px;
+  width: 100%;
+}
+h1 {
+  position: absolute;
+  top: 16px;
+  left: 10px;
+  color: white;
+  font-weight: 600;
+}
+nav {
+  position: absolute;
+  display: flex;
+  bottom: 0;
+  list-style: none;
+  color: white;
+  text-align: center;
+}
+nav li {
+  text-decoration: none;
+  cursor: pointer;
+  width: 80px;
+  padding: 5px;
+  font-size: 20px;
+}
+nav li:hover {
+  border-bottom: 2px rgb(255, 255, 255) solid;
+}
