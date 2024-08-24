@@ -26,7 +26,8 @@ nav li {
   padding: 5px;
   font-size: 20px;
 }
-nav li:hover {
+
+.showBorder {
   border-bottom: 2px rgb(255, 255, 255) solid;
 }
 
