@@ -9,7 +9,7 @@ function Header() {
     { name: "Tab 4", id: 4, isSelect: false },
   ]);
 
-  // write tabs array with state
+  
   const [tabNumber, changeNumber] = useState(1);
 
   const selectHandler = (id) => {
